@@ -4,7 +4,7 @@
 <%@ page import="javax.naming.*" %>
 <%
  	Connection conn = null;
- 	String sql = "SELECT * FROM student";
+ 	String sql = "SELECT * FROM membertbl";
  	PreparedStatement pstmt = null;
  	ResultSet rs = null;
  	ResultSetMetaData rsmd = null;
